@@ -1,6 +1,7 @@
 .path{
 	stroke-dasharray: 20;
 	animation: dash 100s linear infinite;
+  z-index: 1;
 }
 @keyframes dash{
 	to{
@@ -16,8 +17,12 @@
 } 
 .map{
 	display: block;
-	width: 1000px;
-	height: 789px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+	width: 900px;
+	height: 689px;
 	background: url(map.svg);
 	background-size: 1000px 789px;
 	margin: 0;
