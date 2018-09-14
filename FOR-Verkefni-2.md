@@ -9,4 +9,4 @@
    * Því það er auðveldasta leiðin til að fá mismunandi form án þess að þurfa mjög gott GPU.
 3. **Útskýrðu ítarlega og tæknilega (án kóða) hvernig rendering pipeline virkar í WebGL.
 Notaðu skýringamynd þér til stuðnings**
-   * 
+   * b
