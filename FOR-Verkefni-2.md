@@ -1,6 +1,6 @@
 # Verkefni 2
 
-1. **Útskýrðu stuttlega eftirfarandi hugtök og hlutverk: **
+1. **Útskýrðu stuttlega eftirfarandi hugtök og hlutverk:**
    * GPU: líka þekkt sem Graphics Processing Unit og er Sérhannað til að reikna út graphíska útreikninga sem fær sent upplýsingar frá CPU-inu um hvað það á að reykna út, það er notað til að minnka útreikningana sem cpu-ið þarf að gera.
    * Pixels: 
    * Frame buffer, raster-scan and refresh rate:
