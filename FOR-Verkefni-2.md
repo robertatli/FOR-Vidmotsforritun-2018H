@@ -6,7 +6,7 @@
    * Frame buffer, raster-scan and refresh rate:
    * WebGL og OpenGL:
 2. **Afhverju eru 3D objectar búnir til útfrá samsettum þríhyrningum í 3D grafík?**
-   * Því það er auðveldasta leiðin til að fá mismunandi form án þess að þurfa mjög gott GPU.
+   * Því það er auðveldasta leiðin til að fá mismunandi form með því að nota sem minnst GPP (Graphics Processing Power).
 3. **Útskýrðu ítarlega og tæknilega (án kóða) hvernig rendering pipeline virkar í WebGL.
 Notaðu skýringamynd þér til stuðnings**
    * b
