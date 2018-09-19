@@ -1,5 +1,3 @@
 # FORR3FV05EU-Vidmotsforritun-2018H
 
-Ekki klárað verkefni, eyddi of miklum tíma í leikjaforritunaráfangann og gaf mér ekki tíma í það að klára þetta verkefni.
-
-Átti að vera fjársjóðskort með animated svg línu að fjársjóðinum.
+Þetta er Skilamappa Róberts Atla fyrir Viðmótsforritunar áfanga á haustönn 2018.
