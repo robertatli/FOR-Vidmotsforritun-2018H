@@ -3,8 +3,11 @@
 1. **Útskýrðu stuttlega eftirfarandi hugtök og hlutverk:**
    * GPU: líka þekkt sem Graphics Processing Unit og er Sérhannað til að reikna út graphíska útreikninga sem fær sent upplýsingar frá CPU-inu um hvað það á að reykna út, það er notað til að minnka útreikningana sem cpu-ið þarf að gera.
    * Pixels: Pixill er minnsta eining í stafrænni mynd, og er alltaf einlit.
-   * Frame buffer, raster-scan and refresh rate: Frame buffer er partur af mynninu sem geymir upplýsingar um næsta frame sem á að senda til tölvuskjásins. Raster-scan er tegund af skjávörpun sem sendir inn línu fyrir línu í staðinn fyrir full unnar myndir, oft notað í eldri sjónvörpum. Refresh rate er hversu oft skjárinn endurnýjar myndina sem er á honum.
-   * WebGL og OpenGL: WebGL er JavaScript forritunarviðmót til að útfæra gagnvirkar tvívíðar og þrívíðar myndir í vafra. OpenGL er opið API notað til að úfæra gagnvirkar tvívíðar og þrívíðar myndir í vafra með því að nýta sér afl GPUins í tölvunni.
+   * Frame buffer: Frame buffer er partur af mynninu sem geymir upplýsingar um næsta frame sem á að senda til tölvuskjásins.
+   * Raster-scan: Raster-scan er tegund af skjávörpun sem sendir inn línu fyrir línu í staðinn fyrir full unnar myndir, oft notað í eldri sjónvörpum. 
+   * Refresh rate: Refresh rate er hversu oft skjárinn endurnýjar myndina sem er á honum.
+   * WebGL: WebGL er JavaScript forritunarviðmót til að útfæra gagnvirkar tvívíðar og þrívíðar myndir í vafra. 
+   * OpenGL: OpenGL er opið API notað til að úfæra gagnvirkar tvívíðar og þrívíðar myndir í vafra með því að nýta sér afl GPUins í tölvunni.
 2. **Afhverju eru 3D objectar búnir til útfrá samsettum þríhyrningum í 3D grafík?**
    * Því það er auðveldasta leiðin til að fá mismunandi form með því að nota sem minnst GPP (Graphics Processing Power).
 3. **Útskýrðu ítarlega og tæknilega (án kóða) hvernig rendering pipeline virkar í WebGL.
