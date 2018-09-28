@@ -2,7 +2,7 @@
 
 1. **Útskýrðu stuttlega eftirfarandi hugtök og hlutverk:**
    * GPU: líka þekkt sem Graphics Processing Unit og er Sérhannað til að reikna út graphíska útreikninga sem fær sent upplýsingar frá CPU-inu um hvað það á að reykna út, það er notað til að minnka útreikningana sem cpu-ið þarf að gera.
-   * Pixels: Pixill er minnsta eining í stafrænni mynd, og er alltaf einlit.
+   * Pixels: Pixill er minnsta eining í stafrænni mynd, og er alltaf einlit, pixlar eru notaðir til að búa til stærri mynd á tölvuskjá.
    * Frame buffer: Frame buffer er partur af mynninu sem geymir upplýsingar um næsta frame sem á að senda til tölvuskjásins.
    * Raster-scan: Raster-scan er tegund af skjávörpun sem sendir inn línu fyrir línu í staðinn fyrir full unnar myndir, oft notað í eldri sjónvörpum. 
    * Refresh rate: Refresh rate er hversu oft skjárinn endurnýjar myndina sem er á honum.
