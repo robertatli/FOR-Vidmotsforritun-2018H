@@ -12,6 +12,9 @@
    * Því það er auðveldasta leiðin til að fá mismunandi form með því að nota sem minnst GPP (Graphics Processing Power).
 3. **Útskýrðu ítarlega og tæknilega (án kóða) hvernig rendering pipeline virkar í WebGL.
 Notaðu skýringamynd þér til stuðnings**
-   * 
+   1. First tekur **Vertex Shaderinn** inn staðsetninguna á verticenum og breytir henni þannig að formið er staðsett á þeim stað sem þú hefur valið í kóðanum (t.d. með rotation, translation eða scaling).
+   2. Svo mun **Shape assembly** ákveða hvernig eigi að lesa listann af verticesum. Vanalega eru þeir lesnir sem raðir af þríhyrningum.
+   3. Svo kemur að **rasterization**: Vegna þess að skjárinn þinn er 2d og kóðinn þinn er að senda inn 3d staðsetningar þá þarf að varpa myndinni af 3d heiminum í tölvunni á 2d skjáinn þinn. Það breytir þá formunum í **fragments** sem eru svo sent í **Fragment Shaderinn*
+   4. Í **Fragment Shaderinum** mun hann taka inn öll fragmentin sem komu eftir rasterizationið og mun hann setja lit eða texture á fragmentin.
+   5. Svo áður en þetta er sent á skjáinn þinn þá þarf að losna við öll auka fragment sem gætu verið eftir og skilur svo eftir pixla sem þú getur séð á skjánum þínum.
 ![GraphicsPipeline](/FOR-Verkefni-2/renderpipeline.jpg)
-Format: ![Alt text](url)
