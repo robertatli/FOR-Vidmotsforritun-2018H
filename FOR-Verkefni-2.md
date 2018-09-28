@@ -48,3 +48,8 @@ scale) í línulegri algebru og WebGL eru notuð.**
       }
     }
     ```
+5. **Hvað er WebGL Shaders og Graphics Library Shader Language (GLSL) og hvert er
+þeirra hlutverk.**
+   * GLSL: GLSL stendur fyrir Graphics Library Shader Languaga og Það er tungumálið sem shaderar eru skrifaðir í. Það hefur nokkra einstaka eiginleika sem eru ekki oft notaðir í javascript.
+   * Vertex Shader: Tekur inn staðsetningar og stillir vertices eftir þeim, tekur einnig inn translation, rotation og scale.
+   * Fragment Shader: Tekur inn fragments úr rasterizerinum og litar þau eða setur textures á fragmentin.
