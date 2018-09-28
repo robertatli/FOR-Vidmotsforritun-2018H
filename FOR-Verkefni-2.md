@@ -30,21 +30,21 @@ scale) í línulegri algebru og WebGL eru notuð.**
     }
    ```
    * Rotation: rotation tekur inn angleið sem það er gefið, mínusar það með 360, breytir því í radiana og setur radianana inn i sin og cos.
-```javascript
-  function updateAngle(event, ui) {
-    var angleInDegrees = 360 - ui.value;
-    var angleInRadians = angleInDegrees * Math.PI / 180;
-    rotation[0] = Math.sin(angleInRadians);
-    rotation[1] = Math.cos(angleInRadians);
-    drawScene();
-  }
-```
-  * Scale: Scale tekur inn scaleX og scaleY og breytir scaleinu eftir x og y ásinum.
-  ```javascript
-    function updateScale(index) {
-    return function(event, ui) {
-      scale[index] = ui.value;
-      drawScene();
+    ```javascript
+      function updateAngle(event, ui) {
+        var angleInDegrees = 360 - ui.value;
+        var angleInRadians = angleInDegrees * Math.PI / 180;
+        rotation[0] = Math.sin(angleInRadians);
+        rotation[1] = Math.cos(angleInRadians);
+        drawScene();
+      }
+    ```
+   * Scale: Scale tekur inn scaleX og scaleY og breytir scaleinu eftir x og y ásinum.
+    ```javascript
+      function updateScale(index) {
+      return function(event, ui) {
+        scale[index] = ui.value;
+        drawScene();
+      }
     }
-  }
-  ```
+    ```
