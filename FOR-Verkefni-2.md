@@ -13,3 +13,5 @@
 3. **Útskýrðu ítarlega og tæknilega (án kóða) hvernig rendering pipeline virkar í WebGL.
 Notaðu skýringamynd þér til stuðnings**
    * 
+![GraphicsPipeline](/FOR-Verkefni-2/renderpipeline.jpg)
+Format: ![Alt text](url)
