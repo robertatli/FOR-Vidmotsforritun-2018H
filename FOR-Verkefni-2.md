@@ -7,9 +7,9 @@
    * Raster-scan: Raster-scan er tegund af skjávörpun sem sendir inn línu fyrir línu í staðinn fyrir full unnar myndir, oft notað í eldri sjónvörpum. 
    * Refresh rate: Refresh rate er hversu oft skjárinn endurnýjar myndina sem er á honum.
    * WebGL: WebGL er JavaScript forritunarviðmót til að útfæra gagnvirkar tvívíðar og þrívíðar myndir í vafra. 
-   * OpenGL: OpenGL er opið API notað til að úfæra gagnvirkar tvívíðar og þrívíðar myndir í vafra með því að nýta sér afl GPUins í tölvunni.
+   * OpenGL: OpenGL er opið API notað til að úfæra gagnvirkar tvívíðar og þrívíðar myndir með því að nýta sér fullt afl GPUins.
 2. **Afhverju eru 3D objectar búnir til útfrá samsettum þríhyrningum í 3D grafík?**
    * Því það er auðveldasta leiðin til að fá mismunandi form með því að nota sem minnst GPP (Graphics Processing Power).
 3. **Útskýrðu ítarlega og tæknilega (án kóða) hvernig rendering pipeline virkar í WebGL.
 Notaðu skýringamynd þér til stuðnings**
-   * b
+   * 
