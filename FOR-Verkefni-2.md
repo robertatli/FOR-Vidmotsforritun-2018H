@@ -18,3 +18,33 @@ Notaðu skýringamynd þér til stuðnings**
    4. Í **Fragment Shaderinum** mun hann taka inn öll fragmentin sem komu eftir rasterizationið og mun hann setja lit eða texture á fragmentin.
    5. Svo áður en þetta er sent á skjáinn þinn þá þarf að losna við öll auka fragment sem gætu verið eftir og skilur svo eftir pixla sem þú getur séð á skjánum þínum.
 ![GraphicsPipeline](/FOR-Verkefni-2/renderpipeline.jpg)
+4. **Útskýrðu hlutverk og hvernig 2D/3D transformation fylkin (translation, rotation,
+scale) í línulegri algebru og WebGL eru notuð.**
+   * Translation: tranlation er mjög einfalt, það tekur inn x og y value og breytir staðsetningunni á myndinni eftir pixlum.
+   ```javascript
+    function updatePosition(index) {
+      return function(event, ui) {
+        translation[index] = ui.value;
+        drawScene();
+      }
+    }
+   ```
+   * Rotation: rotation tekur inn angleið sem það er gefið, mínusar það með 360, breytir því í radiana og setur radianana inn i sin og cos.
+```javascript
+  function updateAngle(event, ui) {
+    var angleInDegrees = 360 - ui.value;
+    var angleInRadians = angleInDegrees * Math.PI / 180;
+    rotation[0] = Math.sin(angleInRadians);
+    rotation[1] = Math.cos(angleInRadians);
+    drawScene();
+  }
+```
+  * Scale: Scale tekur inn scaleX og scaleY og breytir scaleinu eftir x og y ásinum.
+  ```javascript
+    function updateScale(index) {
+    return function(event, ui) {
+      scale[index] = ui.value;
+      drawScene();
+    }
+  }
+  ```
