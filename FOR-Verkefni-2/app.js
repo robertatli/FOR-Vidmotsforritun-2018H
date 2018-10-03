@@ -83,9 +83,9 @@ let InitDemo = function () {
 function draw() { // function sem teiknar á skjáinn þríhyrninginn
 	let triangleVertices =
 	[ // X, Y                        R   G   B
-		0.0,0.5 * Math.cos(angle),   1.0,1.0,0.0, //teiknar punkt sem færist upp og niður
-		-0.5,-0.5 * Math.cos(angle), 0.7,0.0,1.0, //teiknar punkt sem færist upp og niður
-		0.5 * Math.cos(angle),-0.5,  0.1,1.0,0.6 //teiknar punkt sem færist til hliðar fram og til baka.
+		0.5 * -Math.sin(angle),0.5* Math.cos(angle) ,   1.0,1.0,0.0, //teiknar punkt sem færist upp og niður
+		-0.5 -Math.sin(angle),-0.5 * Math.cos(angle), 0.7,0.0,1.0, //teiknar punkt sem færist upp og niður
+		0.5 * Math.cos(angle),-0.5 -Math.sin(angle),  0.1,1.0,0.6 //teiknar punkt sem færist til hliðar fram og til baka.
 	];
 
 	let triangleVertexBufferObject = gl.createBuffer();
